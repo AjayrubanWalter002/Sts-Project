@@ -88,5 +88,8 @@ public class Connect {
 			public List<Laptop> laps(@RequestBody List<Laptop> ls) {
 			return  ls;
 		}
+		public String getName() {
+			return "ajay";
+		}
 }
 
